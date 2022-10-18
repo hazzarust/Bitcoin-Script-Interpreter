@@ -25,8 +25,8 @@ Lets look at a simple example:
     
     [
     TBytes {
-        data: [                   So the only TBytes on the stack now should be the OpCat TBytes, as we popped TBytes 1 and 2 off the stack.
-            4,                    We can see that the data is 456123, which is the result of calling concat on TBytes 1 data and TBytes 2 data.
+        data: [        So the only TBytes on the stack now should be the OpCat TBytes, as we popped TBytes 1 and 2 off the stack.
+            4,         We can see that the data is 456123, which is the result of calling concat on TBytes 1 data and TBytes 2 data.
             5,                    
             6,
             1,
