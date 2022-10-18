@@ -10,7 +10,7 @@ This interpreter will show you what opcodes were performed to create the parent 
 We do this by a recursive data structure.
 We have a Struct (Tbytes) that stores the data(Vec<u8>), parts(Vec<TBytes>), name(Option<String>)
 This way when we analyze the parts, it will contain the TBytes that were used to produce the parent TByte, and annotate what opcodes were used (due to name).
-I let name be an option as maybe the developer dosent want to have to name the function they use every time for simplicity purposes. 
+I let name be an option as maybe the developer doesn't want to have to name the function they use every time for simplicity purposes. 
 
 Lets look at a simple example:
 
